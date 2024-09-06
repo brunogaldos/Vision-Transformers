@@ -26,6 +26,7 @@ from torchvision.datasets import OxfordIIITPet
 from torchvision.transforms import Resize, ToTensor
 dataset = OxfordIIITPet(root='data', download=True, transform=ToTensor())
 ```
+![image](https://github.com/user-attachments/assets/9bd85fe2-b4ee-43c8-93a6-db00242143e6)
 
 ## Model Architecture
 ### Vision Transformer (ViT)
